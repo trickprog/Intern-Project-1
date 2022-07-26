@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+@layer base {
+    li {
+        @apply py-10;
+        @apply cursor-pointer
+    }
+    input{
+        @apply py-10
+    }
+}
+
